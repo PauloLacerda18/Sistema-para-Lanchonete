@@ -17,6 +17,7 @@
   "homepage": "https://github.com/PauloLacerda18/Sistema-para-Lanchonete#readme",
   "description": "",
   "dependencies": {
+    "bull": "^4.12.9",
     "express": "^4.19.2",
     "pg": "^8.11.5",
     "pg-hstore": "^2.3.4",
