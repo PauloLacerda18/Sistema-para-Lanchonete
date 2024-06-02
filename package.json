@@ -1,0 +1,19 @@
+{
+  "name": "sistema-lanchonete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PauloLacerda18/Sistema-para-Lanchonete.git"
+  },
+  "author": "Paulo Lacerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloLacerda18/Sistema-para-Lanchonete/issues"
+  },
+  "homepage": "https://github.com/PauloLacerda18/Sistema-para-Lanchonete#readme",
+  "description": ""
+}
