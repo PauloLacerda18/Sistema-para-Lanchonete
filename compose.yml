@@ -64,6 +64,25 @@ services:
       networks:
         - project-net
 
+    ngrok:
+      image: ngrok/ngrok:alpine
+      container_name: ngrok
+      restart: unless-stopped
+
+      command:
+        - "start"
+        - "--all"
+        - "--config"
+        - "/etc/ngrok.yml"
+      volumes:
+        - ./config_files/ngrok.yml:/etc/ngrok.yml:ro
+      
+      network_mode: host
+
+      depends_on:
+        - project
+        - haproxy
+
 networks:
   project-net:
 
