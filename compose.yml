@@ -3,7 +3,20 @@ services:
     project:
       build:
         context: .
-      
+
+      deploy:
+        mode: replicated
+        replicas: 3
+        endpoint_mode: vip
+        resources:
+          limits:
+            cpus: '1'
+            memory: 512M
+          reservations:
+            cpus: '0.5'
+            memory: 170M
+        
+
       networks:
         - project-net
 
