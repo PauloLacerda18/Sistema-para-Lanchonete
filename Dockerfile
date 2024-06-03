@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN npm install
 
-CMD ["echo", "teste"]
+CMD ["npm", "run", "init"]
