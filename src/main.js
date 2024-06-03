@@ -7,9 +7,9 @@ const port = 5050
 app.use(morgan('dev'))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+  res.sendFile('static/html/home.html', { root: __dirname }) 
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
-})
+});
