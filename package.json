@@ -1,0 +1,27 @@
+{
+  "name": "sistema-lanchonete",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "init": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PauloLacerda18/Sistema-para-Lanchonete.git"
+  },
+  "author": "Paulo Lacerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloLacerda18/Sistema-para-Lanchonete/issues"
+  },
+  "homepage": "https://github.com/PauloLacerda18/Sistema-para-Lanchonete#readme",
+  "description": "",
+  "dependencies": {
+    "bull": "^4.12.9",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  }
+}
